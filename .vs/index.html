@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="Style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +13,18 @@
 </head>
 <body>
     <section>
-        <h1>Nate Lunceford </h1>
+        <h1 ID="Name">Nate Lunceford </h1>
         <img src="images/Me.png" alt="A picture of myself">
-        <p>My passion for software engineering grows out of my love of crafting simple, clean solutions to complex problems. With the knowledge of C#, SQL, JS, HTML and CSS I'm currently acquiring from TrueCoders' Software Engineering bootcamp, as well as a BA in Advanced Technology and Emerging Communications, I'm confident I can solve any engineering problem that comes my way. I'm excited to get work experience in any field, with a preference for backend. </p>
+        <p class = "descriptions">My passion for software engineering grows out of my love of crafting simple, clean solutions to complex problems. With the knowledge of C#, SQL, JS, HTML and CSS I'm currently acquiring from TrueCoders' Software Engineering bootcamp, as well as a BA in Advanced Technology and Emerging Communications, I'm confident I can solve any engineering problem that comes my way. I'm excited to get work experience in any field, with a preference for backend. </p>
     </section>
     <section>
         <h1> Pizza Hut Delivery Driver</h1>
-        <p>I drove well within the law while ensuring efficient use of time on the road. I also 
+        <p class = "descriptions" >I drove well within the law while ensuring efficient use of time on the road. I also 
         resolved potential issues with customers and helping coworkers with dishes and food preparation</p>
     </section>
     <section>
         <h1> University of Texas at Dallas, BA</h1>
-        <p>
+        <p class = "descriptions">
             Gave me a broad skill set, educating me on the basics of computer animation, game studies, motion graphics, digital fabrication, and media histories.
             Main focus was 3d modeling and texturing. In addition, scripted 8 major projects, which included turrets and enemy pathing/spawning in C++ for Unity, as well as a custom autosave and auto-scatter tools in Python for Maya 2018. 
             Environment artist on an all remote team of 40 students which created a prototype of an isometric shooter, using GitKraken for version control. Met weekly with a small team of other artists, professors, creative director.
@@ -31,7 +32,7 @@
     </section>
     <section>
         <h1> Tacoparser </h1>
-        <p>
+        <p class = "descriptions">
             Given a .CSV file listing latitudes, longitudes and names of Taco Bells in the Southern US, the program finds the two store locations that are the farthest apart.
 Location and names from .CSV are imported into instances of the TacoBell class, which are then added to an array.
 Two for loops are run, the second inside the first. The first gets every TacoBell from the array, the second finds the distance between that TacoBell and every other one. The largest distance is printed out.

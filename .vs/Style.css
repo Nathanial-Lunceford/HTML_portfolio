@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.descriptions {
+    color: rgb(255, 145, 0);
+    text-align: center;
+}
+
+#Name
+{
+    background: rgb(255, 145, 0);
+    text-align: center;
+    padding:1em;
+}
+
+section, img{
+    justify-content: center;
+    align-content: center;
+    padding: auto;
+}
+
+img {
+    padding-left: 5%;
+}
